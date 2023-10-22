@@ -1,0 +1,118 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aviary
+
+
+
+
+
+
+
+
+
+Aviary#
+Aviary is an open source tooklit for evaluating and deploying production open source LLMs.
+This example goes over how to use LangChain to interact with Aviary. You can try Aviary out https://aviary.anyscale.com.
+You can find out more about Aviary at https://github.com/ray-project/aviary.
+One Aviary instance can serve multiple models. You can get a list of the available models by using the cli:
+% aviary models
+Or you can connect directly to the endpoint and get a list of available models by using the /models endpoint.
+The constructor requires a url for an Aviary backend, and optionally a token to validate the connection.
+
+
+import os
+from langchain.llms import Aviary
+
+
+
+
+
+
+llm = Aviary(model='amazon/LightGPT', aviary_url=os.environ['AVIARY_URL'], aviary_token=os.environ['AVIARY_TOKEN'])
+
+
+
+
+
+
+result = llm.predict('What is the meaning of love?')
+print(result) 
+
+
+
+
+Love is an emotion that involves feelings of attraction, affection and empathy for another person. It can also refer to a deep bond between two people or groups of people. Love can be expressed in many different ways, such as through words, actions, gestures, music, art, literature, and other forms of communication.
+
+
+
+
+
+
+
+
+
+
+
+
+previous
+Anyscale
+
+
+
+
+next
+Azure OpenAI
+
+
+
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on Jun 13, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Integrations
+
+
+
+
+
+
+
+
+
+Integrations#
+The examples here are all “how-to” guides for how to integrate with various LLM providers.
+
+
+AI21
+Aleph Alpha
+Anyscale
+Aviary
+Azure OpenAI
+Banana
+Baseten
+Setup
+Single model call
+Chained model calls
+Beam
+Bedrock
+CerebriumAI
+Cohere
+C Transformers
+Databricks
+DeepInfra
+ForefrontAI
+Google Cloud Platform Vertex AI PaLM
+GooseAI
+GPT4All
+Hugging Face Hub
+Hugging Face Pipeline
+Huggingface TextGen Inference
+Jsonformer
+Llama-cpp
+Manifest
+Modal
+MosaicML
+NLP Cloud
+OpenAI
+OpenLM
+Petals
+PipelineAI
+Prediction Guard
+Control the output structure/ type of LLMs
+Chaining
+PromptLayer OpenAI
+ReLLM
+Replicate
+Runhouse
+SageMaker Endpoint
+StochasticAI
+Writer
+
+
+
+
+
+
+
+
+
+
+previous
+How to track token usage
+
+
+
+
+next
+AI21
+
+
+
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on Jun 13, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

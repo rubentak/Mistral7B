@@ -1,0 +1,240 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tutorials
+
+
+
+
+ Contents 
+
+
+
+DeepLearning.AI course
+Handbook
+Tutorials
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tutorials#
+⛓ icon marks a new addition [last update 2023-05-15]
+
+DeepLearning.AI course#
+⛓LangChain for LLM Application Development by Harrison Chase presented by Andrew Ng
+
+
+Handbook#
+LangChain AI Handbook By James Briggs and Francisco Ingham
+
+
+Tutorials#
+LangChain Tutorials by Edrick:
+
+⛓ LangChain, Chroma DB, OpenAI Beginner Guide | ChatGPT with your PDF
+⛓ LangChain 101: The Complete Beginner’s Guide
+
+LangChain Crash Course: Build an AutoGPT app in 25 minutes by Nicholas Renotte
+LangChain Crash Course - Build apps with language models by Patrick Loeber
+LangChain Explained in 13 Minutes | QuickStart Tutorial for Beginners by Rabbitmetrics
+
+
+#
+LangChain for Gen AI and LLMs by James Briggs:
+
+#1 Getting Started with GPT-3 vs. Open Source LLMs
+#2 Prompt Templates for GPT 3.5 and other LLMs
+#3 LLM Chains using GPT 3.5 and other LLMs
+#4 Chatbot Memory for Chat-GPT, Davinci + other LLMs
+#5 Chat with OpenAI in LangChain
+⛓ #6 Fixing LLM Hallucinations with Retrieval Augmentation in LangChain
+⛓ #7 LangChain Agents Deep Dive with GPT 3.5
+⛓ #8 Create Custom Tools for Chatbots in LangChain
+⛓ #9 Build Conversational Agents with Vector DBs
+
+
+
+#
+LangChain 101 by Data Independent:
+
+What Is LangChain? - LangChain + ChatGPT Overview
+Quickstart Guide
+Beginner Guide To 7 Essential Concepts
+OpenAI + Wolfram Alpha
+Ask Questions On Your Custom (or Private) Files
+Connect Google Drive Files To OpenAI
+YouTube Transcripts + OpenAI
+Question A 300 Page Book (w/ OpenAI + Pinecone)
+Workaround OpenAI's Token Limit With Chain Types
+Build Your Own OpenAI + LangChain Web App in 23 Minutes
+Working With The New ChatGPT API
+OpenAI + LangChain Wrote Me 100 Custom Sales Emails
+Structured Output From OpenAI (Clean Dirty Data)
+Connect OpenAI To +5,000 Tools (LangChain + Zapier)
+Use LLMs To Extract Data From Text (Expert Mode)
+⛓ Extract Insights From Interview Transcripts Using LLMs
+⛓ 5 Levels Of LLM Summarizing: Novice to Expert
+
+
+
+#
+LangChain How to and guides by Sam Witteveen:
+
+LangChain Basics - LLMs & PromptTemplates with Colab
+LangChain Basics - Tools and Chains
+ChatGPT API Announcement & Code Walkthrough with LangChain
+Conversations with Memory (explanation & code walkthrough)
+Chat with Flan20B
+Using Hugging Face Models locally (code walkthrough)
+PAL : Program-aided Language Models with LangChain code
+Building a Summarization System with LangChain and GPT-3 - Part 1
+Building a Summarization System with LangChain and GPT-3 - Part 2
+Microsoft’s Visual ChatGPT using LangChain
+LangChain Agents - Joining Tools and Chains with Decisions
+Comparing LLMs with LangChain
+Using Constitutional AI in LangChain
+Talking to Alpaca with LangChain - Creating an Alpaca Chatbot
+Talk to your CSV & Excel with LangChain
+BabyAGI: Discover the Power of Task-Driven Autonomous Agents!
+Improve your BabyAGI with LangChain
+⛓ Master PDF Chat with LangChain - Your essential guide to queries on documents
+⛓ Using LangChain with DuckDuckGO Wikipedia & PythonREPL Tools
+⛓ Building Custom Tools and Agents with LangChain (gpt-3.5-turbo)
+⛓ LangChain Retrieval QA Over Multiple Files with ChromaDB
+⛓ LangChain Retrieval QA with Instructor Embeddings & ChromaDB for PDFs
+⛓ LangChain + Retrieval Local LLMs for Retrieval QA - No OpenAI!!!
+
+
+
+#
+LangChain by Prompt Engineering:
+
+LangChain Crash Course — All You Need to Know to Build Powerful Apps with LLMs
+Working with MULTIPLE PDF Files in LangChain: ChatGPT for your Data
+ChatGPT for YOUR OWN PDF files with LangChain
+Talk to YOUR DATA without OpenAI APIs: LangChain
+⛓️ CHATGPT For WEBSITES: Custom ChatBOT
+
+
+
+#
+LangChain by Chat with data
+
+LangChain Beginner’s Tutorial for Typescript/Javascript
+GPT-4 Tutorial: How to Chat With Multiple PDF Files (~1000 pages of Tesla’s 10-K Annual Reports)
+GPT-4 & LangChain Tutorial: How to Chat With A 56-Page PDF Document (w/Pinecone)
+⛓ LangChain & Supabase Tutorial: How to Build a ChatGPT Chatbot For Your Website
+
+
+
+#
+Get SH*T Done with Prompt Engineering and LangChain by Venelin Valkov
+
+Getting Started with LangChain: Load Custom Data, Run OpenAI Models, Embeddings and ChatGPT
+Loaders, Indexes & Vectorstores in LangChain: Question Answering on PDF files with ChatGPT
+LangChain Models: ChatGPT, Flan Alpaca, OpenAI Embeddings, Prompt Templates & Streaming
+LangChain Chains: Use ChatGPT to Build Conversational Agents, Summaries and Q&A on Text With LLMs
+Analyze Custom CSV Data with GPT-4 using Langchain
+⛓ Build ChatGPT Chatbots with LangChain Memory: Understanding and Implementing Memory in Conversations
+
+
+⛓ icon marks a new addition [last update 2023-05-15]
+
+
+
+
+
+
+
+
+
+previous
+Concepts
+
+
+
+
+next
+Models
+
+
+
+
+
+
+
+
+
+ Contents
+  
+
+
+DeepLearning.AI course
+Handbook
+Tutorials
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on Jun 14, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

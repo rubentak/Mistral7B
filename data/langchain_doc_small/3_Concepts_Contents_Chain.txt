@@ -1,0 +1,200 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Concepts
+
+
+
+
+ Contents 
+
+
+
+Chain of Thought
+Action Plan Generation
+ReAct
+Self-ask
+Prompt Chaining
+Memetic Proxy
+Self Consistency
+Inception
+MemPrompt
+
+
+
+
+
+
+
+
+Concepts#
+These are concepts and terminology commonly used when developing LLM applications.
+It contains reference to external papers or sources where the concept was first introduced,
+as well as to places in LangChain where the concept is used.
+
+Chain of Thought#
+Chain of Thought (CoT) is a prompting technique used to encourage the model to generate a series of intermediate reasoning steps.
+A less formal way to induce this behavior is to include “Let’s think step-by-step” in the prompt.
+
+Chain-of-Thought Paper
+Step-by-Step Paper
+
+
+
+Action Plan Generation#
+Action Plan Generation is a prompting technique that uses a language model to generate actions to take.
+The results of these actions can then be fed back into the language model to generate a subsequent action.
+
+WebGPT Paper
+SayCan Paper
+
+
+
+ReAct#
+ReAct is a prompting technique that combines Chain-of-Thought prompting with action plan generation.
+This induces the model to think about what action to take, then take it.
+
+Paper
+LangChain Example
+
+
+
+Self-ask#
+Self-ask is a prompting method that builds on top of chain-of-thought prompting.
+In this method, the model explicitly asks itself follow-up questions, which are then answered by an external search engine.
+
+Paper
+LangChain Example
+
+
+
+Prompt Chaining#
+Prompt Chaining is combining multiple LLM calls, with the output of one-step being the input to the next.
+
+PromptChainer Paper
+Language Model Cascades
+ICE Primer Book
+Socratic Models
+
+
+
+Memetic Proxy#
+Memetic Proxy is encouraging the LLM
+to respond in a certain way framing the discussion in a context that the model knows of and that
+will result in that type of response.
+For example, as a conversation between a student and a teacher.
+
+Paper
+
+
+
+Self Consistency#
+Self Consistency is a decoding strategy that samples a diverse set of reasoning paths and then selects the most consistent answer.
+Is most effective when combined with Chain-of-thought prompting.
+
+Paper
+
+
+
+Inception#
+Inception is also called First Person Instruction.
+It is encouraging the model to think a certain way by including the start of the model’s response in the prompt.
+
+Example
+
+
+
+MemPrompt#
+MemPrompt maintains a memory of errors and user feedback, and uses them to prevent repetition of mistakes.
+
+Paper
+
+
+
+
+
+
+
+
+
+
+previous
+Quickstart Guide
+
+
+
+
+next
+Tutorials
+
+
+
+
+
+
+
+
+
+ Contents
+  
+
+
+Chain of Thought
+Action Plan Generation
+ReAct
+Self-ask
+Prompt Chaining
+Memetic Proxy
+Self Consistency
+Inception
+MemPrompt
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on Jun 14, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

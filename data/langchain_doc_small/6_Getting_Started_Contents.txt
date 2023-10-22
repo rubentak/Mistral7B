@@ -1,0 +1,208 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Getting Started
+
+
+
+
+ Contents 
+
+
+
+Language Models
+text -> text interface
+messages -> message interface
+
+
+
+
+
+
+
+
+
+
+Getting Started#
+One of the core value props of LangChain is that it provides a standard interface to models. This allows you to swap easily between models. At a high level, there are two main types of models:
+
+Language Models: good for text generation
+Text Embedding Models: good for turning text into a numerical representation
+
+
+Language Models#
+There are two different sub-types of Language Models:
+
+LLMs: these wrap APIs which take text in and return text
+ChatModels: these wrap models which take chat messages in and return a chat message
+
+This is a subtle difference, but a value prop of LangChain is that we provide a unified interface accross these. This is nice because although the underlying APIs are actually quite different, you often want to use them interchangeably.
+To see this, let’s look at OpenAI (a wrapper around OpenAI’s LLM) vs ChatOpenAI (a wrapper around OpenAI’s ChatModel).
+
+
+from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
+
+
+
+
+
+
+llm = OpenAI()
+
+
+
+
+
+
+chat_model = ChatOpenAI()
+
+
+
+
+
+text -> text interface#
+
+
+llm.predict("say hi!")
+
+
+
+
+'\n\nHi there!'
+
+
+
+
+
+
+chat_model.predict("say hi!")
+
+
+
+
+'Hello there!'
+
+
+
+
+
+
+messages -> message interface#
+
+
+from langchain.schema import HumanMessage
+
+
+
+
+
+
+llm.predict_messages([HumanMessage(content="say hi!")])
+
+
+
+
+AIMessage(content='\n\nHello! Nice to meet you!', additional_kwargs={}, example=False)
+
+
+
+
+
+
+chat_model.predict_messages([HumanMessage(content="say hi!")])
+
+
+
+
+AIMessage(content='Hello! How can I assist you today?', additional_kwargs={}, example=False)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+previous
+Models
+
+
+
+
+next
+LLMs
+
+
+
+
+
+
+
+
+
+ Contents
+  
+
+
+Language Models
+text -> text interface
+messages -> message interface
+
+
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on Jun 14, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

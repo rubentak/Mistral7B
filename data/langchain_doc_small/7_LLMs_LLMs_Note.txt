@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+LLMs
+
+
+
+
+
+
+
+
+
+LLMs#
+
+Note
+Conceptual Guide
+
+Large Language Models (LLMs) are a core component of LangChain.
+LangChain is not a provider of LLMs, but rather provides a standard interface through which
+you can interact with a variety of LLMs.
+The following sections of documentation are provided:
+
+Getting Started: An overview of all the functionality the LangChain LLM class provides.
+How-To Guides: A collection of how-to guides. These highlight how to accomplish various objectives with our LLM class (streaming, async, etc).
+Integrations: A collection of examples on how to integrate different LLM providers with LangChain (OpenAI, Hugging Face, etc).
+Reference: API reference documentation for all LLM classes.
+
+
+
+
+
+
+
+
+
+
+
+previous
+Getting Started
+
+
+
+
+next
+Getting Started
+
+
+
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on Jun 14, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

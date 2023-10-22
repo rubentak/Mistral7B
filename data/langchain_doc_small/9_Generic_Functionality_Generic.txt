@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generic Functionality
+
+
+
+
+
+
+
+
+
+Generic Functionality#
+The examples here all address certain “how-to” guides for working with LLMs.
+
+
+How to use the async API for LLMs
+How to write a custom LLM wrapper
+How (and why) to use the fake LLM
+How (and why) to use the human input LLM
+How to cache LLM calls
+How to serialize LLM classes
+How to stream LLM and Chat Model responses
+How to track token usage
+
+
+
+
+
+
+
+
+
+
+previous
+Getting Started
+
+
+
+
+next
+How to use the async API for LLMs
+
+
+
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on Jun 14, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

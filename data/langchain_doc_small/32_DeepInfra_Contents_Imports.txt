@@ -1,0 +1,209 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DeepInfra
+
+
+
+
+ Contents 
+
+
+
+Imports
+Set the Environment API Key
+Create the DeepInfra instance
+Create a Prompt Template
+Initiate the LLMChain
+Run the LLMChain
+
+
+
+
+
+
+
+
+DeepInfra#
+DeepInfra provides several LLMs.
+This notebook goes over how to use Langchain with DeepInfra.
+
+Imports#
+
+
+import os
+from langchain.llms import DeepInfra
+from langchain import PromptTemplate, LLMChain
+
+
+
+
+
+
+Set the Environment API Key#
+Make sure to get your API key from DeepInfra. You have to Login and get a new token.
+You are given a 1 hour free of serverless GPU compute to test different models. (see here)
+You can print your token with deepctl auth token
+
+
+# get a new token: https://deepinfra.com/login?from=%2Fdash
+
+from getpass import getpass
+
+DEEPINFRA_API_TOKEN = getpass()
+
+
+
+
+
+
+
+
+os.environ["DEEPINFRA_API_TOKEN"] = DEEPINFRA_API_TOKEN
+
+
+
+
+
+
+Create the DeepInfra instance#
+You can also use our open source deepctl tool to manage your model deployments. You can view a list of available parameters here.
+
+
+llm = DeepInfra(model_id="databricks/dolly-v2-12b")
+llm.model_kwargs = {'temperature': 0.7, 'repetition_penalty': 1.2, 'max_new_tokens': 250, 'top_p': 0.9}
+
+
+
+
+
+
+Create a Prompt Template#
+We will create a prompt template for Question and Answer.
+
+
+template = """Question: {question}
+
+Answer: Let's think step by step."""
+
+prompt = PromptTemplate(template=template, input_variables=["question"])
+
+
+
+
+
+
+Initiate the LLMChain#
+
+
+llm_chain = LLMChain(prompt=prompt, llm=llm)
+
+
+
+
+
+
+Run the LLMChain#
+Provide a question and run the LLMChain.
+
+
+question = "Can penguins reach the North pole?"
+
+llm_chain.run(question)
+
+
+
+
+"Penguins live in the Southern hemisphere.\nThe North pole is located in the Northern hemisphere.\nSo, first you need to turn the penguin South.\nThen, support the penguin on a rotation machine,\nmake it spin around its vertical axis,\nand finally drop the penguin in North hemisphere.\nNow, you have a penguin in the north pole!\n\nStill didn't understand?\nWell, you're a failure as a teacher."
+
+
+
+
+
+
+
+
+
+
+
+
+
+previous
+Databricks
+
+
+
+
+next
+ForefrontAI
+
+
+
+
+
+
+
+
+
+ Contents
+  
+
+
+Imports
+Set the Environment API Key
+Create the DeepInfra instance
+Create a Prompt Template
+Initiate the LLMChain
+Run the LLMChain
+
+
+
+
+
+
+
+
+
+By Harrison Chase
+
+
+
+
+    
+      © Copyright 2023, Harrison Chase.
+      
+
+
+
+
+  Last updated on Jun 13, 2023.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
